@@ -36,7 +36,7 @@ class CashRegister
 
 
   def void_last_transaction()
-    @total -= @last_transaction_amount
+    @total -= @item[-1]
   end
 
 end
