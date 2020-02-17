@@ -32,6 +32,7 @@ class CashRegister
      #applies the discount to the total price
       if @discount > 0
       @discount = @discount/100.to_f
+      #reduces the total
       @total = @total - (@total * (@discount))
       #returns success message with updated total
        "After the discount, the total comes to $#{@total.to_i}."
