@@ -5,5 +5,5 @@ class CashierRegister
    @discount = discount
    @total = 0
    @items = []
-end 
+  end 
 end
