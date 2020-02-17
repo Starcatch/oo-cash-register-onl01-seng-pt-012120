@@ -1,2 +1,2 @@
 class CashierRegister
-  attr_accessor :total, 
+  attr_accessor :total, :discount, 
