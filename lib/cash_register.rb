@@ -4,5 +4,6 @@ class CashierRegister
   def initialize(discuount = 0)
    @discount = discount
    @total = 0
-   @items =
+   @items = []
 end 
+end
