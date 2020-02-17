@@ -1,2 +1,2 @@
 class CashierRegister
-  attr_accessor
+  attr_accessor :
