@@ -16,6 +16,7 @@ class CashRegister
       i+=1
   end 
 else 
+  
   end 
   
 end 
