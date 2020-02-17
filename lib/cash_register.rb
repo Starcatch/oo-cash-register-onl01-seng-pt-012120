@@ -3,6 +3,6 @@ class CashierRegister
   
   def initialize(discuount = 0)
    @discount =
-   @total =
+   @total = 0
    @items =
 end 
