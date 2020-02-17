@@ -39,3 +39,4 @@ class CashRegister
     @total =  @total - @last_transaction_amount.pop
 
 end
+end 
