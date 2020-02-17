@@ -9,6 +9,7 @@ class CashRegister
   end
  
   def add_item(title,price,quantity = 1)
+   #accepts a title and a price and increases the total
     if quantity>1
       i=0
       while i<quantity
