@@ -15,6 +15,7 @@ class CashRegister
       @item << title
       i+=1
   end 
+else 
   end 
   
 end 
